@@ -1,0 +1,272 @@
+/* line 1, ../sass/_normalize-min.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+body {
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+a {
+  background: transparent;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+img {
+  border: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+button {
+  overflow: visible;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+input {
+  line-height: normal;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/_normalize-min.scss */
+td, th {
+  padding: 0;
+}
+
+/* line 7, ../sass/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/style.scss */
+nav {
+  width: 100px;
+  padding: 5px;
+  position: fixed;
+  top: 50px;
+  left: -90px;
+  transition: left 0.25s ease;
+  background-color: #0472e5;
+}
+/* line 28, ../sass/style.scss */
+nav ul {
+  padding: 0;
+}
+/* line 31, ../sass/style.scss */
+nav ul li {
+  list-style-type: none;
+}
+/* line 34, ../sass/style.scss */
+nav ul li a {
+  text-decoration: none;
+  color: #95b410;
+}
+/* line 41, ../sass/style.scss */
+nav ul .icon {
+  color: #95b410;
+  background-color: #0472e5;
+  text-align: right;
+  position: relative;
+  float: right;
+  left: 15px;
+  top: -18px;
+  width: 20px;
+  padding: 3px;
+  clear: none;
+}
+
+/* line 57, ../sass/style.scss */
+.clicked {
+  left: 0;
+}

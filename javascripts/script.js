@@ -1,1 +1,3 @@
-//put some scripts here
+$( "#nav" ).click( function() {
+  $( this ).toggleClass( "clicked" );
+});

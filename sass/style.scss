@@ -1,2 +1,59 @@
-//Normalize
-//@import "normalize";
+// Normalize
+@import "normalize-min";
+
+// Box Sizing
+@import "compass/css3/box-sizing";
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+// Variables
+$color-red:    #ec1e2a;
+$color-orange: #fe6311;
+$color-yellow: #ffbe0c;
+$color-green:  #95b410;
+$color-blue:   #0472e5;
+$color-violet: #b148bf;
+
+nav {
+  width: 100px;
+  padding: 5px;
+  position: fixed;
+  top: 50px;
+  left: -90px;
+  transition: left 0.25s ease;
+  background-color: $color-blue;
+  
+  ul {
+    padding: 0;
+    
+    li {
+      list-style-type: none;
+      
+      a {
+        text-decoration: none;
+        color: $color-green;
+      }
+    
+    }
+
+    .icon {
+      color: $color-green;
+      background-color: $color-blue;
+      text-align: right;
+      position: relative;
+      float: right;
+      left: 15px;
+      top: -18px;
+      width: 20px;
+      padding: 3px;
+      clear: none;
+    }
+  }
+}
+
+// click event classes
+.clicked {
+  left: 0;
+}
